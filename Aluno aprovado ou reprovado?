@@ -1,0 +1,20 @@
+Algoritmo "Aluno aprovado ou reprovado?"
+Var
+// Seção de Declarações das variáveis
+nota1,nota2,media:real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+ escreval("--------------------------")
+ escreval("  APROVADO OU REPROVADO?")
+ escreval("--------------------------")
+  escreva("  Digite a primeira nota: ")
+   leia(nota1)
+  escreva("  Digite a segunda nota: ")
+   leia(nota2)
+ media<-nota1+nota2\2
+  se (media>=7)entao
+   escreva ("  APROVADO!!!Sua média final foi de",media,".")
+  senao
+   escreva ("  RECUPERAÇÃO!Sua média final foi de",media,".")
+  FimSe
+ Fimalgoritmo
